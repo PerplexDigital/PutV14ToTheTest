@@ -1,0 +1,18 @@
+{
+    "$schema": "../../../umbraco-package-schema.json",
+    "name": "Hello Angular",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "dashboard",
+            "alias": "My.Dashboard.HelloAngular",
+            "name": "Hello Angular",
+            "element": "/App_Plugins/Angular/angular.js",
+            "elementName": "hello-angular",
+            "meta": {
+                "label": "Hello Angular",
+                "pathname": "hello-dashboard-angular"
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "$schema": "../../umbraco-package-schema.json",
+    "name": "My.Vanilla.Extension",
+    "version": "0.1.0",
+    "extensions": [
+      {
+        "type": "dashboard",
+        "alias": "my.what.extension",
+        "name": "do-not-click-here",
+        "js": "/App_Plugins/What/vite-project.js",
+        "weight": -1,
+        "meta": {
+          "label": "Do not click here",
+          "pathname": "my-what-extension"
+        },
+        "conditions": [
+          {
+            "alias": "Umb.Condition.SectionAlias",
+            "match": "Umb.Section.Content"
+          }
+        ]
+      }
+    ]
+  }

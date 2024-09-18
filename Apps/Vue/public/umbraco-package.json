@@ -1,0 +1,18 @@
+{
+    "$schema": "../../../umbraco-package-schema.json",
+    "name": "Hello Vue",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "dashboard",
+            "alias": "My.Dashboard.HelloVue",
+            "name": "Hello Vue",
+            "element": "/App_Plugins/Vue/vue.js",
+            "elementName": "hello-vue",
+            "meta": {
+                "label": "Hello Vue",
+                "pathname": "hello-dashboard-vue"
+            }
+        }
+    ]
+}

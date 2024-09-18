@@ -1,0 +1,18 @@
+{
+    "$schema": "../../../umbraco-package-schema.json",
+    "name": "Hello React",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "dashboard",
+            "alias": "My.Dashboard.HelloReact",
+            "name": "Hello React",
+            "element": "/App_Plugins/React/react.js",
+            "elementName": "hello-react",
+            "meta": {
+                "label": "Hello React",
+                "pathname": "hello-dashboard-react"
+            }
+        }
+    ]
+}

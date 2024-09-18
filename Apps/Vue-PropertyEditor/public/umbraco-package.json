@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../umbraco-package-schema.json",
+    "name": "VuePropertyEditor",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "propertyEditorUi",
+            "alias": "My.PropertyEditorUI.TextCounter",
+            "name": "My Suggestions Property Editor UI",
+            "element": "/App_Plugins/VuePropertyEditor/vue.js",
+            "elementName": "hello-vue-property",
+            "meta": {
+                "label": "Counter field",
+                "icon": "icon-list",
+                "group": "common",
+                "propertyEditorSchemaAlias": "Umbraco.Plain.String"
+            }
+        }
+    ]
+}
